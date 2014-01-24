@@ -1,7 +1,7 @@
 PasswordVerificationService
 ===========================
 
-This is just some example code that I've done for people that would like to see my coding style. 
+This is just some example code that I've done for anyone that would like to see my coding style. 
 
 The ant build file can create a jar file to include the code in another project. There are 3 dependency lib jars in the /lib directory that may already be included in the project. These are Spring, Commons-logging, and Guava.  The build.xml also has “test”, “compile”, and  “clean” available.  
 
