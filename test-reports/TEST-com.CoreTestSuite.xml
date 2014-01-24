@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="bryans-mbp-2.coraid.com" name="com.CoreTestSuite" tests="36" time="0.785" timestamp="2014-01-23T22:21:49">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/Users/bryan/tar/eclipse-kepler/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="lib" value="lib" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/classes" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030" />
+    <property name="java.runtime.version" value="1.7.0_10-b18" />
+    <property name="user.name" value="bryan" />
+    <property name="user.language" value="en" />
+    <property name="build" value="classes" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib" />
+    <property name="javadoc_dir" value="doc" />
+    <property name="ant.project.default-target" value="compile" />
+    <property name="ant.project.name" value="PasswordVerifier" />
+    <property name="java.version" value="1.7.0_10" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="US-ASCII" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="src" value="src" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/Users/bryan/Documents/workspace/PasswordVerifier/build.xml" />
+    <property name="os.version" value="10.9.1" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="23.6-b04" />
+    <property name="jarName" value="passwordVerification.jar" />
+    <property name="ant.library.dir" value="/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ant.file.PasswordVerifier" value="/Users/bryan/Documents/workspace/PasswordVerifier/build.xml" />
+    <property name="eclipse.pdebuild.scripts" value="/Users/bryan/tar/eclipse-kepler/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/scripts//" />
+    <property name="user.home" value="/Users/bryan" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/bryan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.:/Users/bryan/tar/eclipse-kepler/configuration/org.eclipse.osgi/bundles/1140/1/.cp" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1390515708924 -Declipse.connect.port=62576 -Declipse.pdebuild.home=/Users/bryan/tar/eclipse-kepler/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/.// -Declipse.pdebuild.scripts=/Users/bryan/tar/eclipse-kepler/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/scripts// -Declipse.pdebuild.templates=/Users/bryan/tar/eclipse-kepler/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/templates// -Dant.home=/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /Users/bryan/Documents/workspace/PasswordVerifier/build.xml test" />
+    <property name="java.class.path" value="/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-antlr.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-bcel.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-bsf.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-log4j.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-oro.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-regexp.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-resolver.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-apache-xalan2.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-commons-logging.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-commons-net.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-jai.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-javamail.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-jdepend.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-jmf.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-jsch.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-junit.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-junit4.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-launcher.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-netrexx.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-swing.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant-testutil.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant.jar:/Users/bryan/tar/eclipse-kepler/configuration/org.eclipse.osgi/bundles/63/1/.cp/lib/antdebug.jar:/Users/bryan/tar/eclipse-kepler/configuration/org.eclipse.osgi/bundles/63/1/.cp/lib/remote.jar:/Users/bryan/tar/eclipse-kepler/configuration/org.eclipse.osgi/bundles/64/1/.cp/lib/remoteAnt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/lib/tools.jar:/Users/bryan/tar/eclipse-kepler/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.102.1.v20130827-2048.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.4 compiled on May 22 2012" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="eclipse.pdebuild.home" value="/Users/bryan/tar/eclipse-kepler/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/.//" />
+    <property name="java.io.tmpdir" value="/var/folders/dh/thc4dc3j28d_gdfgympky05c0000gn/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Users/bryan/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_10.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/bryan/Documents/workspace/PasswordVerifier" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/bryan/Documents/workspace/PasswordVerifier" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="/Users/bryan/tar/eclipse-kepler/plugins/org.apache.ant_1.8.4.v201303080030/lib/ant.jar" />
+    <property name="file.encoding" value="US-ASCII" />
+    <property name="ant.file.type.PasswordVerifier" value="file" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="test-reports" value="test-reports" />
+  </properties>
+  <testcase classname="com.mccormi.service.password.rule.LengthCheckPasswordRuleTest" name="testLengthFour" time="0.253" />
+  <testcase classname="com.mccormi.service.password.rule.LengthCheckPasswordRuleTest" name="testNull" time="0.013" />
+  <testcase classname="com.mccormi.service.password.rule.LengthCheckPasswordRuleTest" name="testLengthFive" time="0.017" />
+  <testcase classname="com.mccormi.service.password.rule.LengthCheckPasswordRuleTest" name="testLengthTwelve" time="0.013" />
+  <testcase classname="com.mccormi.service.password.rule.LengthCheckPasswordRuleTest" name="testLengthThirteen" time="0.014" />
+  <testcase classname="com.mccormi.service.password.rule.LengthCheckPasswordRuleTest" name="testLongString" time="0.055" />
+  <testcase classname="com.mccormi.service.password.rule.MixedCasePasswordRuleTest" name="testBasicCorrect" time="0.026" />
+  <testcase classname="com.mccormi.service.password.rule.MixedCasePasswordRuleTest" name="testNonLetter" time="0.012" />
+  <testcase classname="com.mccormi.service.password.rule.MixedCasePasswordRuleTest" name="testNonLetter2" time="0.014" />
+  <testcase classname="com.mccormi.service.password.rule.MixedCasePasswordRuleTest" name="testCapital" time="0.012" />
+  <testcase classname="com.mccormi.service.password.rule.MixedCasePasswordRuleTest" name="testWithSpace" time="0.011" />
+  <testcase classname="com.mccormi.service.password.rule.MixedCasePasswordRuleTest" name="testAllLeters" time="0.011" />
+  <testcase classname="com.mccormi.service.password.rule.MixedCasePasswordRuleTest" name="testNonAscii" time="0.012" />
+  <testcase classname="com.mccormi.service.password.rule.MixedCasePasswordRuleTest" name="testNull" time="0.014" />
+  <testcase classname="com.mccormi.service.password.rule.MixedCasePasswordRuleTest" name="testLongString" time="0.063" />
+  <testcase classname="com.mccormi.service.password.rule.SequenceCheckPasswordRuleTest" name="testSingleRepeat" time="0.017" />
+  <testcase classname="com.mccormi.service.password.rule.SequenceCheckPasswordRuleTest" name="testDoubleRepeat" time="0.011" />
+  <testcase classname="com.mccormi.service.password.rule.SequenceCheckPasswordRuleTest" name="testLongRepeat" time="0.012" />
+  <testcase classname="com.mccormi.service.password.rule.SequenceCheckPasswordRuleTest" name="testBasicCorrect" time="0.011" />
+  <testcase classname="com.mccormi.service.password.rule.SequenceCheckPasswordRuleTest" name="testNonAscii" time="0.011" />
+  <testcase classname="com.mccormi.service.password.rule.SequenceCheckPasswordRuleTest" name="testNull" time="0.013" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testDoubleRepeat" time="0.011" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testLongRepeat" time="0.011" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testBasicCorrect" time="0.01" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testNonLetter" time="0.01" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testNonLetter2" time="0.011" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testCapital" time="0.01" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testWithSpace" time="0.009" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testAllLeters" time="0.009" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testNonAscii" time="0.009" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testLengthFour" time="0.009" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testNull" time="0.011" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testLengthFive" time="0.009" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testLengthTwelve" time="0.009" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testLengthThirteen" time="0.01" />
+  <testcase classname="com.mccormi.service.password.PasswordVerificationServiceTest" name="testLongString" time="0.012" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jan 23, 2014 2:21:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51d13bb0: display name [org.springframework.context.support.ClassPathXmlApplicationContext@51d13bb0]; startup date [Thu Jan 23 14:21:49 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:49 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@51d13bb0]: org.springframework.beans.factory.support.DefaultListableBeanFactory@d3d7fa1
+Jan 23, 2014 2:21:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d3d7fa1: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@159fdae5: display name [org.springframework.context.support.ClassPathXmlApplicationContext@159fdae5]; startup date [Thu Jan 23 14:21:49 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:49 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@159fdae5]: org.springframework.beans.factory.support.DefaultListableBeanFactory@259c5407
+Jan 23, 2014 2:21:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@259c5407: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3764253e: display name [org.springframework.context.support.ClassPathXmlApplicationContext@3764253e]; startup date [Thu Jan 23 14:21:49 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:49 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@3764253e]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4615d176
+Jan 23, 2014 2:21:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4615d176: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4188c3f4: display name [org.springframework.context.support.ClassPathXmlApplicationContext@4188c3f4]; startup date [Thu Jan 23 14:21:49 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:49 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@4188c3f4]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3586a6d2
+Jan 23, 2014 2:21:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3586a6d2: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7fc84be9: display name [org.springframework.context.support.ClassPathXmlApplicationContext@7fc84be9]; startup date [Thu Jan 23 14:21:49 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:49 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@7fc84be9]: org.springframework.beans.factory.support.DefaultListableBeanFactory@ac3e000
+Jan 23, 2014 2:21:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@ac3e000: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:49 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6253fd6a: display name [org.springframework.context.support.ClassPathXmlApplicationContext@6253fd6a]; startup date [Thu Jan 23 14:21:49 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:49 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:49 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@6253fd6a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@78871dc5
+Jan 23, 2014 2:21:49 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@78871dc5: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@72f71719: display name [org.springframework.context.support.ClassPathXmlApplicationContext@72f71719]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@72f71719]: org.springframework.beans.factory.support.DefaultListableBeanFactory@30b4aa06
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@30b4aa06: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4625e2ab: display name [org.springframework.context.support.ClassPathXmlApplicationContext@4625e2ab]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@4625e2ab]: org.springframework.beans.factory.support.DefaultListableBeanFactory@47a619d7
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@47a619d7: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@23fcbeda: display name [org.springframework.context.support.ClassPathXmlApplicationContext@23fcbeda]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@23fcbeda]: org.springframework.beans.factory.support.DefaultListableBeanFactory@250cf510
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@250cf510: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@67115cea: display name [org.springframework.context.support.ClassPathXmlApplicationContext@67115cea]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@67115cea]: org.springframework.beans.factory.support.DefaultListableBeanFactory@14be60b
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@14be60b: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2abd2c1e: display name [org.springframework.context.support.ClassPathXmlApplicationContext@2abd2c1e]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@2abd2c1e]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3dbbc2b0
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3dbbc2b0: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@556baf01: display name [org.springframework.context.support.ClassPathXmlApplicationContext@556baf01]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@556baf01]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7c1e5a67
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7c1e5a67: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@37e1b41d: display name [org.springframework.context.support.ClassPathXmlApplicationContext@37e1b41d]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@37e1b41d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3b0cdee
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3b0cdee: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@63265cf2: display name [org.springframework.context.support.ClassPathXmlApplicationContext@63265cf2]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@63265cf2]: org.springframework.beans.factory.support.DefaultListableBeanFactory@493a377d
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@493a377d: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@7150c2b0: display name [org.springframework.context.support.ClassPathXmlApplicationContext@7150c2b0]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@7150c2b0]: org.springframework.beans.factory.support.DefaultListableBeanFactory@63d982d
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@63d982d: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@595660c3: display name [org.springframework.context.support.ClassPathXmlApplicationContext@595660c3]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@595660c3]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7a2fc0ff
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7a2fc0ff: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5c8120: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5c8120]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5c8120]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4350d9b5
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4350d9b5: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@150e6233: display name [org.springframework.context.support.ClassPathXmlApplicationContext@150e6233]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@150e6233]: org.springframework.beans.factory.support.DefaultListableBeanFactory@658981e0
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@658981e0: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@18aa6bfd: display name [org.springframework.context.support.ClassPathXmlApplicationContext@18aa6bfd]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@18aa6bfd]: org.springframework.beans.factory.support.DefaultListableBeanFactory@d81bb68
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@d81bb68: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1e6e696d: display name [org.springframework.context.support.ClassPathXmlApplicationContext@1e6e696d]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@1e6e696d]: org.springframework.beans.factory.support.DefaultListableBeanFactory@4e561369
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4e561369: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3740f768: display name [org.springframework.context.support.ClassPathXmlApplicationContext@3740f768]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@3740f768]: org.springframework.beans.factory.support.DefaultListableBeanFactory@32210e49
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@32210e49: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6fade18b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@6fade18b]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@6fade18b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@2cad3d63
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2cad3d63: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@679e96f7: display name [org.springframework.context.support.ClassPathXmlApplicationContext@679e96f7]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@679e96f7]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3bb88d41
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3bb88d41: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@24ee8489: display name [org.springframework.context.support.ClassPathXmlApplicationContext@24ee8489]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@24ee8489]: org.springframework.beans.factory.support.DefaultListableBeanFactory@49114668
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@49114668: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@16805c54: display name [org.springframework.context.support.ClassPathXmlApplicationContext@16805c54]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@16805c54]: org.springframework.beans.factory.support.DefaultListableBeanFactory@61e34259
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@61e34259: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@41ccf24c: display name [org.springframework.context.support.ClassPathXmlApplicationContext@41ccf24c]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@41ccf24c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@5f909402
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5f909402: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@39e70eeb: display name [org.springframework.context.support.ClassPathXmlApplicationContext@39e70eeb]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@39e70eeb]: org.springframework.beans.factory.support.DefaultListableBeanFactory@489eeaeb
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@489eeaeb: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@19676aa8: display name [org.springframework.context.support.ClassPathXmlApplicationContext@19676aa8]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@19676aa8]: org.springframework.beans.factory.support.DefaultListableBeanFactory@559c4c8e
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@559c4c8e: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4f1e5ed9: display name [org.springframework.context.support.ClassPathXmlApplicationContext@4f1e5ed9]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@4f1e5ed9]: org.springframework.beans.factory.support.DefaultListableBeanFactory@615f8156
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@615f8156: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@32e7c4ef: display name [org.springframework.context.support.ClassPathXmlApplicationContext@32e7c4ef]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@32e7c4ef]: org.springframework.beans.factory.support.DefaultListableBeanFactory@6c166263
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@6c166263: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6f84cdab: display name [org.springframework.context.support.ClassPathXmlApplicationContext@6f84cdab]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@6f84cdab]: org.springframework.beans.factory.support.DefaultListableBeanFactory@3b41daa9
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3b41daa9: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@5551516b: display name [org.springframework.context.support.ClassPathXmlApplicationContext@5551516b]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@5551516b]: org.springframework.beans.factory.support.DefaultListableBeanFactory@44f0e58b
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@44f0e58b: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@34e0907c: display name [org.springframework.context.support.ClassPathXmlApplicationContext@34e0907c]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@34e0907c]: org.springframework.beans.factory.support.DefaultListableBeanFactory@240615ef
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@240615ef: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@8f66d63: display name [org.springframework.context.support.ClassPathXmlApplicationContext@8f66d63]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@8f66d63]: org.springframework.beans.factory.support.DefaultListableBeanFactory@2ebeb60
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2ebeb60: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3ff42624: display name [org.springframework.context.support.ClassPathXmlApplicationContext@3ff42624]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@3ff42624]: org.springframework.beans.factory.support.DefaultListableBeanFactory@33a3668a
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@33a3668a: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@42114939: display name [org.springframework.context.support.ClassPathXmlApplicationContext@42114939]; startup date [Thu Jan 23 14:21:50 PST 2014]; root of context hierarchy
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [PasswordVerificationContext.xml]
+Jan 23, 2014 2:21:50 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@42114939]: org.springframework.beans.factory.support.DefaultListableBeanFactory@784222a
+Jan 23, 2014 2:21:50 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@784222a: defining beans [passwordVerificationService,lengthCheckPasswordRule,mixedCasePasswordRule,sequenceCheckPasswordRule]; root of factory hierarchy
+]]></system-err>
+</testsuite>
