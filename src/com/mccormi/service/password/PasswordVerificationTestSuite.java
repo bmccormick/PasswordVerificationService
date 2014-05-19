@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.mccormi.service.password;
 
@@ -12,25 +12,25 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * 
+ *
  *
  */
 public class PasswordVerificationTestSuite extends TestCase {
-	
-	/**
-	 * PasswordVerification Test Suite
-	 * 
-	 * 
-	 * @return TestSuite
-	 */
-	public static Test suite(){
-		TestSuite suite = new TestSuite();
-		suite.setName("Password Verification Test Suite");
-		suite.addTestSuite(LengthCheckPasswordRuleTest.class);
-		suite.addTestSuite(MixedCasePasswordRuleTest.class);
-		suite.addTestSuite(SequenceCheckPasswordRuleTest.class);
-		suite.addTestSuite(PasswordVerificationServiceTest.class);
-		return suite;
-	}
+
+  /**
+   * PasswordVerification Test Suite
+   *
+   *
+   * @return TestSuite
+   */
+  public static Test suite(){
+    TestSuite suite = new TestSuite();
+    suite.setName("Password Verification Test Suite One");
+    suite.addTestSuite(LengthCheckPasswordRuleTest.class);
+    suite.addTestSuite(MixedCasePasswordRuleTest.class);
+    suite.addTestSuite(SequenceCheckPasswordRuleTest.class);
+    suite.addTestSuite(PasswordVerificationServiceTest.class);
+    return suite;
+  }
 
 }
