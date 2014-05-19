@@ -14,9 +14,6 @@ public class PasswordVerificationService {
    * Test whether a password is acceptable and passes the configured set of password
    * verification rules.
    *
-   * This is a second test commit on a new branch.
-   *
-   *
    * @param password
    * @return boolean
    */
