@@ -1,3 +1,4 @@
-/classes
-/test-reports
-/passwordVerification.jar
+PasswordVerificationService.iml
+.idea
+.idea/
+target/
