@@ -1,4 +1,4 @@
-package com.mccormi.util;
+package com.mccormi.password.util;
 
 import java.util.Random;
 

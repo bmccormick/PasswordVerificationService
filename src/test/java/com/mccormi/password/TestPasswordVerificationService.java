@@ -1,7 +1,7 @@
 package com.mccormi.password;
 
 import com.mccormi.password.config.TestAppConfig;
-import com.mccormi.util.StringUtil;
+import com.mccormi.password.util.StringUtil;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.mccormi.config;
+package com.mccormi.password.config;
 
 import com.google.common.collect.Lists;
 import com.mccormi.password.PasswordVerificationService;
