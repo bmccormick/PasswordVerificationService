@@ -21,6 +21,19 @@
     <version.spring>4.2.6.RELEASE</version.spring>
   </properties>
 
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
   <dependencies>
     <dependency>
       <groupId>com.google.guava</groupId>
@@ -57,9 +70,6 @@
       <artifactId>spring-context-support</artifactId>
       <version>${version.spring}</version>
     </dependency>
-
-
-
 
 
     <dependency>
