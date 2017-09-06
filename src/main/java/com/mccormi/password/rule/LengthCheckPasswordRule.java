@@ -16,17 +16,17 @@ public class LengthCheckPasswordRule implements PasswordVerificationRule {
     
     int passwordLength = password.length();
     
-		/* Check to make sure that the password isn't too small. */
+    /* Check to make sure that the password isn't too small. */
     if (passwordLength < getMinLength()) {
       return false;
     }
     
-		/* Check to make sure that the password isn't too large. */
+    /* Check to make sure that the password isn't too large. */
     if (passwordLength > getMaxLength()) {
       return false;
     }
-		
-		/* It's just right. */
+    
+    /* It's just right. */
     return true;
   }
   

@@ -21,7 +21,7 @@ public class SequenceCheckPasswordRule implements PasswordVerificationRule {
       }
     }
     
-		/* No Matching sequences, this rule passes.*/
+    /* No Matching sequences, this rule passes.*/
     return true;
   }
   
