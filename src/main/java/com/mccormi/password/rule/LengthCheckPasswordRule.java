@@ -1,5 +1,6 @@
 package com.mccormi.password.rule;
 
+import com.google.common.base.Strings;
 
 public class LengthCheckPasswordRule implements PasswordVerificationRule {
   
@@ -9,8 +10,7 @@ public class LengthCheckPasswordRule implements PasswordVerificationRule {
   
   @Override
   public boolean testPassword(String password) {
-    
-    if (null == password) {
+    if (Strings.isNullOrEmpty(password)) {
       return false;
     }
     
@@ -20,7 +20,7 @@ public class LengthCheckPasswordRule implements PasswordVerificationRule {
     if (passwordLength < getMinLength()) {
       return false;
     }
-		
+    
 		/* Check to make sure that the password isn't too large. */
     if (passwordLength > getMaxLength()) {
       return false;

@@ -1,10 +1,12 @@
 package com.mccormi.password.rule;
 
+import com.google.common.base.Strings;
+
 public class SequenceCheckPasswordRule implements PasswordVerificationRule {
   
   @Override
   public boolean testPassword(String password) {
-    if (null == password) {
+    if (Strings.isNullOrEmpty(password)) {
       return false;
     }
     int passwordLength = password.length();
@@ -23,7 +25,6 @@ public class SequenceCheckPasswordRule implements PasswordVerificationRule {
     return true;
   }
   
-  
   private boolean testPosition(int index, int size, String password) {
     if (null == password) {
       return false;
@@ -38,7 +39,6 @@ public class SequenceCheckPasswordRule implements PasswordVerificationRule {
     if (endSecond > passwordLength) {
       return false;
     }
-    
     
     String first = password.substring(startFirst, endFirst);
     String second = password.substring(startSecond, endSecond);

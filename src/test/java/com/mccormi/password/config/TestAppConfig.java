@@ -27,7 +27,7 @@ public class TestAppConfig {
   }
   
   @Bean
-  public LengthCheckPasswordRule getLengthCheckPasswordRule(){
+  public LengthCheckPasswordRule getLengthCheckPasswordRule() {
     LengthCheckPasswordRule rule = new LengthCheckPasswordRule();
     rule.setMaxLength(12);
     rule.setMinLength(5);
@@ -35,13 +35,13 @@ public class TestAppConfig {
   }
   
   @Bean
-  public MixedCasePasswordRule getMixedCasePasswordRule(){
+  public MixedCasePasswordRule getMixedCasePasswordRule() {
     MixedCasePasswordRule rule = new MixedCasePasswordRule();
     return rule;
   }
   
   @Bean
-  public SequenceCheckPasswordRule getSequenceCheckPasswordRule(){
+  public SequenceCheckPasswordRule getSequenceCheckPasswordRule() {
     SequenceCheckPasswordRule rule = new SequenceCheckPasswordRule();
     return rule;
   }

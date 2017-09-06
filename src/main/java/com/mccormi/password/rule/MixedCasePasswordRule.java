@@ -1,13 +1,13 @@
 package com.mccormi.password.rule;
 
 import com.google.common.base.CharMatcher;
-
+import com.google.common.base.Strings;
 
 public class MixedCasePasswordRule implements PasswordVerificationRule {
   
   @Override
   public boolean testPassword(String password) {
-    if (null == password) {
+    if (Strings.isNullOrEmpty(password)) {
       return false;
     }
     
@@ -25,12 +25,12 @@ public class MixedCasePasswordRule implements PasswordVerificationRule {
     if (!CharMatcher.JAVA_DIGIT.or(CharMatcher.JAVA_LOWER_CASE).matchesAllOf(password)) {
       return false;
     }
-		
+    
 		/* If we don't have at least one digit and letter then fail */
     if (!(CharMatcher.DIGIT.matchesAnyOf(password) && CharMatcher.JAVA_LETTER.matchesAnyOf(password))) {
       return false;
     }
-		
+    
 		/* We've passed the requirements for this Rule. */
     return true;
   }

@@ -14,44 +14,44 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @ContextConfiguration(classes = TestAppConfig.class)
 @WebAppConfiguration
 public class TestLengthCheckPasswordRule {
-	
+  
   @Autowired
-	private LengthCheckPasswordRule rule;
+  private LengthCheckPasswordRule rule;
   
   @Test
-	public void testNull() {
-		boolean result = rule.testPassword(null);
+  public void testNull() {
+    boolean result = rule.testPassword(null);
     Assert.assertFalse(result);
-	}
-	
-	@Test
-	public void testLengthFour() {
-		boolean result = rule.testPassword("abcd");
+  }
+  
+  @Test
+  public void testLengthFour() {
+    boolean result = rule.testPassword("abcd");
     Assert.assertFalse(result);
-	}
-	
-	@Test
-	public void testLengthFive() {
-		boolean result = rule.testPassword("abcde");
+  }
+  
+  @Test
+  public void testLengthFive() {
+    boolean result = rule.testPassword("abcde");
     Assert.assertTrue(result);
-	}
-	
-	@Test
-	public void testLengthTwelve() {
-		boolean result = rule.testPassword("abcdefghijkl");
+  }
+  
+  @Test
+  public void testLengthTwelve() {
+    boolean result = rule.testPassword("abcdefghijkl");
     Assert.assertTrue(result);
-	}
-	
-	@Test
-	public void testLengthThirteen() {
-		boolean result = rule.testPassword("abcdefghijklm");
+  }
+  
+  @Test
+  public void testLengthThirteen() {
+    boolean result = rule.testPassword("abcdefghijklm");
     Assert.assertFalse(result);
-	}
-	
-	@Test
-	public void testLongString() {
-		boolean result = rule.testPassword(StringUtil.suggestRandom(1024*200));
+  }
+  
+  @Test
+  public void testLongString() {
+    boolean result = rule.testPassword(StringUtil.suggestRandom(1024 * 200));
     Assert.assertFalse(result);
-	}
-
+  }
+  
 }
