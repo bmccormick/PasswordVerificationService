@@ -12,22 +12,22 @@ public class MixedCasePasswordRule implements PasswordVerificationRule {
     }
     
     /* Test to make sure that the password is made up of ascii characters to start off with */
-    if (!CharMatcher.ASCII.matchesAllOf(password)) {
+    if (!CharMatcher.ascii().matchesAllOf(password)) {
       return false;
     }
     
     /* Test to make sure that the password is made up of letters or numbers */
-    if (!CharMatcher.JAVA_LETTER_OR_DIGIT.matchesAllOf(password)) {
+    if (!CharMatcher.javaLetterOrDigit().matchesAllOf(password)) {
       return false;
     }
     
     /* Test to make sure that the letters are lower case. */
-    if (!CharMatcher.JAVA_DIGIT.or(CharMatcher.JAVA_LOWER_CASE).matchesAllOf(password)) {
+    if (!CharMatcher.digit().or(CharMatcher.javaLowerCase()).matchesAllOf(password)) {
       return false;
     }
     
     /* If we don't have at least one digit and letter then fail */
-    if (!(CharMatcher.DIGIT.matchesAnyOf(password) && CharMatcher.JAVA_LETTER.matchesAnyOf(password))) {
+    if (!(CharMatcher.digit().matchesAnyOf(password) && CharMatcher.javaLetter().matchesAnyOf(password))) {
       return false;
     }
     
